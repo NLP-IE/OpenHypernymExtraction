@@ -1,8 +1,8 @@
-Here are two hypernymy datasets: Single-pair and Multi-pair datasets. In Single-pair, each sentence contains only one hypernymy pair, while in Multi-pair, each sentence contains two or more hypernymy pairs. Entities in each dataset both comes from different domains include persons, locations, organizations, products,etc.
+Here are two hypernymy datasets: Single-pair and Multi-pair datasets. In Single-pair, each sentence contains only one hypernymy pair, while in Multi-pair, each sentence contains two or more hypernymy pairs. Entities in each dataset both comes from different domains include persons, locations, organizations, products, etc.
 
-For each dataset, we spilt it into training dataset and testing dataset. The large amount of training data are obtained from Baidu Wikipedia by means of distant supervision methods without manually labeling, while the test set is manually labeled to ensure its quality. Meanwhile, we exclude from the training set any pair containing hypernymy elements that appears in the testing set. 
+For each dataset, we spilt it into training dataset and testing dataset. The large amount of training data are obtained from Baidu Wikipedia(https://baike.baidu.com/) by means of distant supervision methods without manually labeling, while the test set is manually labeled to ensure its quality. Meanwhile, we exclude from the training set any pair containing hypernymy elements that appears in the testing set. 
 
-ALL files are encoded by GBK and lines in each file consist of three columns, separated by "\t". The first column is the original text, the second column is the entitys, the third column is the hypernyms, and different elements in the last two columns are joined by "@@@".
+ALL files are encoded by GBK and lines in each file consist of three columns, separated by "\t". The first column is the original sentence, the second column is the entitys, the third column is the hypernyms, and different elements in the last two columns are joined by "@@@".
 
 //datasets
 Single-pair:
